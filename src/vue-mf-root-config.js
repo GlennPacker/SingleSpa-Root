@@ -7,12 +7,6 @@ registerApplication({
 });
 
 registerApplication({
-  name: "@vue-mf/dogs-dashboard",
-  app: () => System.import("@vue-mf/dogs-dashboard"),
-  activeWhen: "/view-doggos",
-});
-
-registerApplication({
   name: "basic",
   app: () => System.import("basic"),
   activeWhen: "/basic-page",
