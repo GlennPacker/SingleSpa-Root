@@ -22,8 +22,8 @@ registerApplication({
 });
 
 registerApplication({
-  name: "delete",
-  app: () => System.import("delete"),
+  name: "basic",
+  app: () => System.import("basic"),
   activeWhen: "/basic-page",
 });
 
